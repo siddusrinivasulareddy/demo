@@ -1,0 +1,410 @@
+*{
+ margin: 0%;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 600;
+    color: orange;
+}
+.s{
+    width: 16%;
+    text-align: center;
+}
+.nav{ 
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px rgb(216, 211, 211);
+}
+.logo{
+    width: 30%;
+display: flex;
+flex-wrap: wrap;
+}
+.logo1{
+    width: 20%;
+    background-image: url(https://1000logos.net/wp-content/uploads/2021/05/Swiggy-emblem.png);
+    background-size: 75px 75px;
+    background-repeat: no-repeat;
+    background-position: 1px 2px;
+}
+.logo1:hover{
+    background-size: 80px 80px; 
+}
+.logo1:click{
+    background-size: 800px 800px;           
+}
+.logo2{
+    width: 30%;
+    text-align: center;
+    align-self: center;
+}
+.src{
+    width: 70%;
+    display: flex;
+flex-wrap: wrap;
+align-self: center;
+justify-content: space-evenly;
+}
+/* ==================================================================================================================  */
+
+.body{
+    width: 70%;
+   margin-left: 15%;
+    height: 1600px;
+}
+.menu{
+    width:auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 200px;
+    height: 150px;
+}
+.food{
+    width: auto;
+    height: 270px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content:space-between;
+}
+.food11{
+    width: 100%;
+    height: 180px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+.food11:hover{
+  width: 102%;
+  height: 190px ;
+  background-size: 102% 190px;
+}
+.food12{
+    width: 100%;
+    height: 180px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bs9qgsy25pn07pzn6xx1);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+.food12:hover{
+    width: 102%;
+    height: 190px ;
+    background-size: 102% 190px;
+  }
+.food13{
+    width: 100%;
+    height: 180px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/9869efb0-ef0e-41eb-bffa-9d6e03eef55e_432976.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+.food13:hover{
+    width: 102%;
+    height: 190px ;
+    background-size: 102% 190px;
+  }
+.div1{
+padding-top: 12px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.food1{
+    width: 30%;
+    height: 270px;
+}
+ .but{ width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 10px;
+ }
+ .b1{
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.621);
+    text-align: center;
+    padding: 15px;
+    padding-top: 5px;
+    font-size: small;
+    border-radius: 15px;
+    border: 1px rgb(183, 172, 172) solid;
+ }
+ .items{
+    width: 100%;
+    height: 200px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+ }
+.items1{
+    width: 20%;
+    height: 200px;
+    /* background-color: red; */
+}
+ .items11{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/5e7991d9-6a0d-4034-82a9-59bd2bbdc0b3_43836.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.items11:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.items12{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d0450ce1a6ba19ea60cd724471ed54a8);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.items12:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.items13{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/741d7d41-1341-4358-b6e0-cc22b8e82f9a_750396.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.items13:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.items14{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/y7e8zdaagxrwxs3dnhnd);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.items14:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.item{
+    width: 100%;
+    height: 200px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+ }
+.item1{
+    width: 20%;
+    height: 200px;
+    /* background-color: red; */
+}
+ .item11{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/23/e5e23da8-f5d8-4782-bbe2-a8b28f64cad0_681612.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.item11:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.item12{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/1392089b-bfd1-4ac2-90f5-cdb914aa163a_692226.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.item12:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.item13{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/e12f3a72ab92442dc088f803a04d4293);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.item13:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.item14{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/1210606d-9f10-48d2-a517-202616db229d_740521.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.item14:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.it{
+    width: 100%;
+    height: 200px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+ }
+.it1{
+    width: 20%;
+    height: 200px;
+    /* background-color: red; */
+}
+ .it11{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/azxzcaki9nybmhk9exy4);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.it11:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.it12{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/3/8ddbbdc8-05c5-4628-afcb-d0563e3c2040_48338.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.it12:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.it13{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/tt6w5xcsltp9z79lwtfk);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.it13:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+.it14{
+    width: 100%;
+    height: 110px;
+    /* background-color: red;   */
+    border-radius: 20px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/28/04968076-c09c-464e-90e2-e0dd29ea1dfa_681363.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+}
+.it14:hover{
+  width: 102%;
+  height: 114px ;
+  background-size: 102% 114px;
+}
+/* ==================================================================================================================  */
+.play{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(178, 175, 175, 0.224);
+    display: flex;
+}
+.play1{
+    width: 50%;
+    height: 100px;
+    /* background-color: blue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(15, 15, 15);
+    font-size: 19px;
+    padding-left: 140px;
+    padding-top: 10px;
+}
+.play2{
+    width:50% ;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+.play21{
+    width: 40%;
+    height: 80px;
+    /* background-color: aqua; */
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png);
+    background-repeat: no-repeat;
+    background-size: 100% 80px;
+}
+.play22{
+    width: 40%;
+    height: 80px;
+    /* background-color: rgb(113, 131, 131); */
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.pngg);
+    background-repeat: no-repeat;
+    background-size: 100% 80px;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+.f1{
+    font-weight: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    width: 25%;
+    height: 390px;
+    /* background-color:red; */
+}
+/* ==================================================================================================================  */
