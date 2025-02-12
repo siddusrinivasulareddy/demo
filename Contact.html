@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -63,3 +64,70 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact form</title>
+    <link rel="stylesheet" href="./Contact.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css"
+  />
+  </head>
+  <body>
+    <div class="leftbox">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input
+        type="hidden"
+        name="access_key"
+        value="40d09af2-dd7e-4a4e-9281-0d67e6f9372c"
+        />
+        <div id="content">
+        <h1>contact me</h1>
+          <input name="name" type="text" placeholder="Enter Name" /> 
+
+          <input  name="email" type="text" placeholder="Your mali-Id" /> 
+
+      <textarea name="message" id="message" placeholder="message!!"></textarea>
+
+      <button type="submit" onclick="f1()">Send Mail <i class="bx bx-mail-send"></i></button>
+
+    </form></div>
+    </div>
+    <div class="rightbox">
+      <div id="observablehq-chart-6ad8ad18" style="position: fixed;"></div>
+</div>
+   
+    <script type="module">
+      function f1(params) {
+        let a = document.querySelector("input").values
+        let b = document.getElementById("message").value
+        if(a == "" || b == "" ){
+             alert("enter")
+        }
+        else{
+          alert("non enter")
+        }
+      }
+      import {
+        Runtime,
+        Inspector,
+      } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+      import define from "https://api.observablehq.com/@d3/disjoint-force-directed-graph/2.js?v=4";
+      new Runtime().module(define, (name) => {
+        if (name === "chart")
+          return new Inspector(
+            document.querySelector("#observablehq-chart-6ad8ad18")
+          );
+      });
+    </script>
+  </body>
+</html>
+>>>>>>> c34a2b02a523b243d57e274e69adb4a4b7b1282a
